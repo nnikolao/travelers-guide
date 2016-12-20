@@ -69,6 +69,10 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/Logout.feat
 
 **Technical Priority: (5/5)** Είναι αρκετά σημαντικό να παρέχεται η λειτουργία αυτή ώστε να υπάρχει υλικό για να δει ο Χρήστης.
 
+#### Ιστορίες Χρηστών
+
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/RegisterCompany.feature
+
 
 ### ΛΑ-5    
 
