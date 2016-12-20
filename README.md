@@ -1,9 +1,9 @@
-# Title
+# Traveler's Guide 
 
-## Authors
+## Συγγραφείς 
 
-- Author 1: Koutsianou Dimitra
-- Author 2: Nikolaidis Nikos
+- Συγγραφέας 1: Koutsianou Dimitra
+- Συγγραφέας 2: Nikolaidis Nikos
 
 ## Abstract
 
@@ -13,4 +13,5 @@ A summary of your project
 
 Links to the documents you have created
 
-  1. [Introduction](https://github.com/kyrcha/soft-eng-assignment/blob/master/documentation/intro.md)
+  1. [Introduction](https://github.com/nnikolao/travelers-guide/blob/master/documentation/intro.md)
+  2. [Απαιτήσεις Χρηστών](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md)
