@@ -5,13 +5,14 @@
 - Συγγραφέας 1: Koutsianou Dimitra
 - Συγγραφέας 2: Nikolaidis Nikos
 
-## Abstract
+## Περίληψη
 
-A summary of your project
+Το σύστημα λογισμικού Traveler's Guide που πρόκειτε να αναπτυχθεί, θα είναι μια διαδικτυακή υπηρεσία, προσβάσιμη μέσω 
+web-browser. Η εφαρμογή προβλέπεται να παρέχει στους χρήστες τη δυνατότητα να αναζητούν και να βρίσκουν πληροφορίες σχετικά 
+με μέρη που θέλουν να επισκευθούν, επιχειρήσης που υπάρχουν σε αυτές τις τοποθεσίες καθώς και να προσφέρει τη δυνατότητα σε 
+χρήστες που έχουν ήδη επισκευθεί τα μέρη αυτά να μοιραστούν τις εντυπώσεις τους με άλλους χρήστες.
 
-## Table of Contents
-
-Links to the documents you have created
+## Περιεχόμενα
 
  1. [Introduction](https://github.com/nnikolao/travelers-guide/blob/master/documentation/intro.md)
  2. [Απαιτήσεις Χρηστών](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md)
