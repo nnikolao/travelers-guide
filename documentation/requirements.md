@@ -334,7 +334,7 @@
 
 ## Use case diagram
 
-Representation of all users and user stories/use cases
+ https://github.com/nnikolao/travelers-guide/blob/master/pics/UCD.jpg
 
 ## Activity diagrams
 
