@@ -37,7 +37,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/Login.featu
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/Register.feature
 
 ### ΛΑ-3    
 
