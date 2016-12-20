@@ -55,7 +55,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/Register.fe
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/Logout.feature
 
 ### ΛΑ-4    
 
