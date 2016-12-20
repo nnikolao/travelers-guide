@@ -19,7 +19,7 @@ Scenario: Login σαν Διαχειριστής
   And κάνω κλικ πάνω στο κουμπί "log in"
   Then θα πρέπει να εμφανιστεί η κατάλληλη αρχική σελίδα Διαχειριστή
 
-Scenario: Authentication Fail
+Scenario: Login Fail
   Given οτι είμαι στην κεντρική σελίδα
   When κάνω κλικ πάνω στο κουμπί "log in" 
   Then θα πρέπει να εμφανιστεί η σελίδα του "log in"
