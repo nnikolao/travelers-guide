@@ -375,21 +375,29 @@ https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmatio
 
 ## Mockups and Storyboards
 
-**Add friend:**
+**Booking confirmation:**
 
+https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.storyboard.png.pdf
 
-**Nearby:**
+***
 
+**Log in:**
 
-**Newsfeed:**
+https://github.com/nnikolao/travelers-guide/blob/master/pics/mockup.login.storyboard.pdf
 
+***
 
-**Arrival:**
+**User register:**
 
+https://github.com/nnikolao/travelers-guide/blob/master/pics/user.register.storyboard.pdf
 
-**Info route:**
+***
 
+**Visitor quest:**
 
+https://github.com/nnikolao/travelers-guide/blob/master/pics/visitor.quest.storyboard.pdf
+
+***
 
 ## Μη Λειτουργικές Απαιτήσεις
 
