@@ -349,33 +349,27 @@ https://github.com/nnikolao/travelers-guide/blob/master/pics/log.in.png
 
 ***
 
->**Best route:**
+>**User register:**
 
-![GitHub Logo](/resources/best route.jpg)
-
-***
-
->**eTickets:**
-
-![GitHub Logo](/resources/etickets_final2.jpg)
+https://github.com/nnikolao/travelers-guide/blob/master/pics/register.user.png
 
 ***
 
->**Info Routes/Stations:**
+>**Visitor quest:**
 
-![GitHub Logo](/resources/info.jpg)
-
-***
-
->**Navigate to Station:**
-
-![GitHub Logo](/resources/navigate to station.jpg)
+https://github.com/nnikolao/travelers-guide/blob/master/pics/visitor.quest.png
 
 ***
 
->**Nearby:**
+>**Change company's address:**
 
-![GitHub Logo](/resources/nearby.jpg)
+https://github.com/nnikolao/travelers-guide/blob/master/pics/change.companys.address.png
+
+***
+
+>**Booking confirmation:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.png
 
 ***
 
