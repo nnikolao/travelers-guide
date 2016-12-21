@@ -105,7 +105,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/Search.feat
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/List.feature
 
 ### ΛΑ-7    
 
