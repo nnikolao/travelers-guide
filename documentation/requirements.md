@@ -343,9 +343,9 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/AdminInfo.f
 
 ## Activity diagrams
 
->**Live prediction of arrival:**
+>**Log in:**
 
-![GitHub Logo](/resources/arrival.jpg)
+https://github.com/nnikolao/travelers-guide/blob/master/pics/log.in.png
 
 ***
 
