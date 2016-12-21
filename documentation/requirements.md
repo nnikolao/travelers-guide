@@ -402,6 +402,8 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/RegisterCom
 
 Ο χρήστης θα πρέπει να μπορεί να εισάγει εικόνες τύπου JPEG και PNG.
 
+*περιγραφή*
+
 
 ### ΜΛΑ-2    
 
