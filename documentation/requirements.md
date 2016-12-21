@@ -137,7 +137,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/map.feature
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/AdminInfo.feature
 
 ### ΛΑ-9   
 
