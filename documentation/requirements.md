@@ -121,7 +121,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/List.featur
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/map.feature
 
 ### ΛΑ-8    
 
