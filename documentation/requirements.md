@@ -377,7 +377,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmatio
 
 **Booking confirmation:**
 
-https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.storyboard.png.pdf
+https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.storyboard.pdf
 
 ***
 
