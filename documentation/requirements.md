@@ -88,6 +88,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/RegisterCom
 
 #### Ιστορίες Χρηστών
 
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/Search.feature
 
 
 ### ΛΑ-6    
