@@ -399,6 +399,66 @@ https://github.com/nnikolao/travelers-guide/blob/master/pics/visitor.quest.story
 
 ***
 
+**Homepage:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.mockup.png
+
+***
+
+**Homepage.user:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.user.mockup.png
+
+***
+
+**Register.company:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/register.company.mockup.png
+
+***
+
+**Register.user:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/register.user.mockup.png
+
+***
+
+**Interest.point.menu:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/interest.point.menu.mockup.png
+
+***
+
+**Entertainment.menu:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/entertainment.menu.mockup.png
+
+***
+
+**Tango.bar.santorini:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/tangobar.santorini.mockup.png
+
+***
+
+**Tango.bar.santorini.map:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/tangobar.santorini.map.mockup.png
+
+***
+
+**Booking:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.mockup.png
+
+***
+
+**Booking.confirmation:**
+
+https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.mockup.png
+
+***
+
 ## Μη Λειτουργικές Απαιτήσεις
 
 ### ΜΛΑ-1    
