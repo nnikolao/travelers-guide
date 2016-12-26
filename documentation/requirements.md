@@ -297,7 +297,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/valuation.f
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/pic.upload.feature
 
 ### ΛΑ-19    
 
