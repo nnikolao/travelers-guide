@@ -17,17 +17,16 @@ web-browser. Η εφαρμογή προβλέπεται να παρέχει στ
  1. [Introduction](https://github.com/nnikolao/travelers-guide/blob/master/documentation/intro.md)
  2. [Απαιτήσεις Χρηστών](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md)
  
- 3. Storyboards and Mockups
  
- 3.1 Storyboards
+ 3. https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md#mockups-and-storyboards
  
+  3.1 StoryBoards:
    * [Log In](https://github.com/nnikolao/travelers-guide/blob/master/pics/mockup.login.storyboard.pdf)
    * [Register](https://github.com/nnikolao/travelers-guide/blob/master/pics/user.register.storyboard.pdf)
    * [Visitor Quest](https://github.com/nnikolao/travelers-guide/blob/master/pics/visitor.quest.storyboard.pdf)
    * [Booking Confirmation](https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.storyboard.pdf)
    
- 3.2 Mockups
- 
+ 3.2 Mockups:
    * [Homepage](https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.mockup.png)
    * [User Register](https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.user.mockup.png)
    * [Company Register](https://github.com/nnikolao/travelers-guide/blob/master/pics/register.company.mockup.png)
@@ -39,7 +38,12 @@ web-browser. Η εφαρμογή προβλέπεται να παρέχει στ
    * [Booking](https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.mockup.png)
    * [Booking Sucess](https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.mockup.png)
    
- 4. [Requirements](https://github.com/nnikolao/travelers-guide/tree/master/requirements)
+ 4. [Use case & Activity diagrams]
+ 
+  * [Use case diagram](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md#use-case-diagram)
+  * [Activity diagrams](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md#activity-diagrams)
+  
+ 5. [Requirements](https://github.com/nnikolao/travelers-guide/tree/master/requirements)
  
    * [Login](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Login.feature)
    * [Logout](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Logout.feature)
