@@ -18,12 +18,14 @@ web-browser. Η εφαρμογή προβλέπεται να παρέχει στ
  2. [Απαιτήσεις Χρηστών](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md)
  
  3.1 Storyboards
+ 
    * [Log In](https://github.com/nnikolao/travelers-guide/blob/master/pics/mockup.login.storyboard.pdf)
    * [Register](https://github.com/nnikolao/travelers-guide/blob/master/pics/user.register.storyboard.pdf)
    * [Visitor Quest](https://github.com/nnikolao/travelers-guide/blob/master/pics/visitor.quest.storyboard.pdf)
    * [Booking Confirmation](https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.storyboard.pdf)
    
  3.2 Mockups
+ 
    * [Homepage](https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.mockup.png)
    * [User Register](https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.user.mockup.png)
    * [Company Register](https://github.com/nnikolao/travelers-guide/blob/master/pics/register.company.mockup.png)
