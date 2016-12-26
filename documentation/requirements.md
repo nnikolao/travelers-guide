@@ -185,7 +185,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/Booking.Fea
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/Company.Booking.Feature
 
 ### ΛΑ-12    
 
@@ -201,7 +201,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/Booking.Fea
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/Reservation.Confirm.feature
 
 ### ΛΑ-13    
 
@@ -217,7 +217,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/Booking.Fea
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/Company.Change.Info.feature
 
 ### ΛΑ-14   
 
@@ -233,7 +233,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/Booking.Fea
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/User.message.feature
 
 ### ΛΑ-15    
 
