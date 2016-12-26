@@ -23,8 +23,8 @@ web-browser. Η εφαρμογή προβλέπεται να παρέχει στ
    * [Visitor Quest](https://github.com/nnikolao/travelers-guide/blob/master/pics/visitor.quest.storyboard.pdf)
    * [Booking Confirmation](https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.storyboard.pdf)
    
-   https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.mockup.png
-   https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.user.mockup.png
+   !https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.mockup.png
+   !https://github.com/nnikolao/travelers-guide/blob/master/pics/homepage.user.mockup.png
    https://github.com/nnikolao/travelers-guide/blob/master/pics/register.company.mockup.png
    https://github.com/nnikolao/travelers-guide/blob/master/pics/register.user.mockup.png
    https://github.com/nnikolao/travelers-guide/blob/master/pics/interest.point.menu.mockup.png
