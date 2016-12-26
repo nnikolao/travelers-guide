@@ -38,6 +38,7 @@ web-browser. Η εφαρμογή προβλέπεται να παρέχει στ
    * [Booking Sucess](https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.mockup.png)
    
  4. [Requirements](https://github.com/nnikolao/travelers-guide/tree/master/requirements)
+ 
    * [Login](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Login.feature)
    * [Logout](https://github.com/sotiristsak/soft-eng-assignment/blob/master/requirements/Logout.feature)
    * [Register](https://github.com/nnikolao/travelers-guide/blob/master/requirements/Register.feature)
