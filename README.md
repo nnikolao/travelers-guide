@@ -38,7 +38,7 @@ web-browser. Η εφαρμογή προβλέπεται να παρέχει στ
    * [Booking](https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.mockup.png)
    * [Booking Sucess](https://github.com/nnikolao/travelers-guide/blob/master/pics/booking.confirmation.mockup.png)
    
- 4. [Use case & Activity diagrams]
+ 4. Use case & Activity diagrams
  
   * [Use case diagram](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md#use-case-diagram)
   * [Activity diagrams](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md#activity-diagrams)
