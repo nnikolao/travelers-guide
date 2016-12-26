@@ -249,7 +249,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/User.messag
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/User.reservation.time.feature
 
 ### ΛΑ-16    
 
@@ -281,7 +281,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/User.messag
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/valuation.feature
 
 ### ΛΑ-18    
 
