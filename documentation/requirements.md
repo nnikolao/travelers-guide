@@ -153,7 +153,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/AdminInfo.f
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/User.Comment.feature
 
 ### ΛΑ-10    
 
@@ -169,7 +169,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/AdminInfo.f
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/Booking.Feature
 
 ### ΛΑ-11    
 
