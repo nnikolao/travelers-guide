@@ -17,6 +17,8 @@ web-browser. Η εφαρμογή προβλέπεται να παρέχει στ
  1. [Introduction](https://github.com/nnikolao/travelers-guide/blob/master/documentation/intro.md)
  2. [Απαιτήσεις Χρηστών](https://github.com/nnikolao/travelers-guide/blob/master/documentation/requirements.md)
  
+ 3. Storyboards and Mockups
+ 
  3.1 Storyboards
  
    * [Log In](https://github.com/nnikolao/travelers-guide/blob/master/pics/mockup.login.storyboard.pdf)
