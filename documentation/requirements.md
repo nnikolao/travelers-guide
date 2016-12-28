@@ -265,7 +265,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/User.reserv
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/false.reservation.warning.feature
 
 ### ΛΑ-17    
 
@@ -313,7 +313,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/pic.upload.
 
 #### Ιστορίες Χρηστών
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/User.info.update.feature
 
 ### ΛΑ-20    
 
