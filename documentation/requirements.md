@@ -330,7 +330,7 @@ https://github.com/nnikolao/travelers-guide/blob/master/requirements/User.info.u
 #### Ιστορίες Χρηστών
 
 
-
+https://github.com/nnikolao/travelers-guide/blob/master/requirements/Visitor.search.feature
 
 
 
