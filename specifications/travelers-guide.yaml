@@ -1,0 +1,461 @@
+swagger: '2.0'
+info:
+  version: "0.0.1"
+  title: travelers-guide
+  
+
+consumes: 
+  - application/json
+produces:
+  - application/json
+  
+
+definitions:
+  user:
+    type: object
+    required:
+      - id
+      - name
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      email:
+        type: string
+      phone:
+        type: integer
+      adress:
+        type: string
+      birth:
+        type: integer
+        format: date
+  newuser:
+    type: object
+    required:
+      - name
+    properties:
+      name:
+        type: string
+      email:
+        type: string
+      phone:
+        type: integer
+      adress:
+        type: string
+      birth:
+        type: integer
+        format: date
+  interestpoint:
+    type: object
+    required:
+      - id
+      - companyname
+    
+    properties:
+      id:
+        type: integer
+      companyname:
+        type: string
+      adress:
+        type: string
+      email: 
+        type: string
+      phone:
+        type: integer
+  newinterestpoint:
+    type: object
+    required:
+      - companyname
+    properties:
+      companyname:
+        type: string
+      adress:
+        type: string
+      email: 
+        type: string
+      phone:
+        type: integer
+  comment:
+    type: object
+    required:
+      - comment
+    properties:
+      comment:
+        type: string
+        
+  interestlist:
+    type: object
+    required:
+      - InterestListName
+    properties:
+      InterestListName:
+        type: string
+      InterestList:
+        type: array
+        items:
+          $ref: "#/definitions/interestpoint"
+
+  reservation:
+    type: object
+    required:
+      - username
+      - companyname
+      - date
+    properties:
+      username:
+        type: string
+      companyname: 
+        type: string
+      date:
+        type: string
+        format: date-time
+        
+        
+paths:
+  /users:
+    get:
+      description: Gets all the users
+      parameters:
+        - name: _sort
+          in: query
+          required: false
+          type: string
+        - name: _order
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: users succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/user'
+    post:
+      description: Create a new user
+      parameters:
+        - name: user
+          in: body
+          required: true
+          description: user to add to the app
+          schema:
+            $ref: '#/definitions/newuser'
+      responses:
+        201:
+          description: user created
+          
+  /users/{uid}:
+    parameters:
+      - name: uid
+        in: path
+        required: true
+        type: integer
+    get:
+      description: Get a user with *uid*
+      responses:
+        200:
+          description: user succesfully retrieved
+          schema:
+            $ref: '#/definitions/user'
+        404:
+          description: user not found
+    delete:
+      description: Delete a user with *uid*
+      responses:
+        200:
+          description: user deleted 
+          schema:
+            $ref: '#/definitions/user'
+        404:
+          description: user not found
+    put:
+      description: Update a user with *uid*
+      parameters:
+        - name: user
+          in: body
+          required: true
+          description: Updates
+          schema:
+            $ref: '#/definitions/newuser'
+      responses:
+        200:
+          description: user updated
+          schema:
+            $ref: '#/definitions/user'
+        404:
+          description: user not found
+          
+  /interestpoint:
+    get:
+      description: Gets all the interestpoints
+      parameters:
+        - name: companyname
+          in: query
+          required: false
+          type: string
+        - name: adress
+          in: query
+          required: false
+          type: string
+      responses:
+        200:
+          description: interestpoint succesfully retrieved
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/interestpoint'
+    post:
+      description: Create a new interestpoint
+      parameters:
+        - name: companyname
+          in: body
+          required: true
+          description: interestpoint to add to the app
+          schema:
+            $ref: '#/definitions/newinterestpoint'
+      responses:
+        201:
+          description: interestpoint created
+    put:
+      description: Update a interestpoint
+      parameters:
+        - name: companyname
+          in: body
+          required: true
+          description: Updates
+          schema:
+            $ref: '#/definitions/newinterestpoint'
+      responses:
+        200:
+          description: interestpoint updated
+          schema:
+            $ref: '#/definitions/interestpoint'
+        404:
+          description: interestpoint not found
+    delete:
+      description: Delete an interestpoint with *companyname*
+      responses:
+        200:
+          description: interestpoint deleted 
+          schema:
+            $ref: '#/definitions/interestpoint'
+        404:
+          description: interestpoint not found
+          
+  /interestpoint/{iid}:
+    parameters:
+      - name: iid
+        in: path
+        required: true
+        type: integer
+        format: int64
+    get:
+      description: Get a interestpoint with *iid*
+      responses:
+        200:
+          description: interestpoint succesfully retrieved
+          schema:
+            $ref: '#/definitions/interestpoint'
+        404:
+          description: interestpoint not found
+    delete:
+      description: Delete a interestpoint with *iid*
+      responses:
+        200:
+          description: interestpoint deleted 
+          schema:
+            $ref: '#/definitions/interestpoint'
+        404:
+          description: interestpoint not found
+    put:
+      description: Update a interestpoint with *iid*
+      parameters:
+        - name: interestpoint
+          in: body
+          required: true
+          description: Updates
+          schema:
+            $ref: '#/definitions/newinterestpoint'
+      responses:
+        200:
+          description: interestpoint updated
+          schema:
+            $ref: '#/definitions/interestpoint'
+        404:
+          description: interestpoint not found
+          
+  /interestpoint/{companyname}/comment/:
+    parameters:
+      - name: companyname
+        in: path
+        required: true
+        type: string
+    
+    get:
+      description: get all comments for interestpoint *companyname*
+      responses:
+        200:
+          description: comment succesfully retrieved
+          schema:
+            $ref: '#/definitions/comment'
+        404:
+          description: comment not found
+    post:
+      description: create a comment for interestpoint *companyname*
+      responses:
+        200:
+          description: comment succesfully created
+          schema:
+            $ref: '#/definitions/comment'
+        404:
+          description: comment not found
+    put:
+      description: edit a comment for interestpoint *companyname*
+      responses:
+        200:
+          description: comment succesfully edited
+          schema:
+            $ref: '#/definitions/comment'
+        404:
+          description: comment not found
+    delete:
+      description: delete a comment for interestpoint *companyname*
+      responses:
+        200:
+          description: comments succesfully deleted
+          schema:
+            $ref: '#/definitions/comment'
+        404:
+          description: comment not found
+  /user/{username}/interestlist/:
+    parameters:
+      - name: username
+        in: path
+        required: true
+        type: string
+    
+    get:
+      description: get all interestpointlists for user *username*
+      responses:
+        200:
+          description: interestlist succesfully retrieved
+          schema:
+            $ref: '#/definitions/interestlist'
+        404:
+          description: interestlist not found
+    post:
+      description: create an interestpointlist for user *username*
+      responses:
+        200:
+          description: interestlist succesfully created
+          schema:
+            $ref: '#/definitions/interestlist'
+        404:
+          description: interestlist not found
+    put:
+      description: edit an interestpointlist for user *username*
+      responses:
+        200:
+          description: interestlist succesfully edited
+          schema:
+            $ref: '#/definitions/interestlist'
+        404:
+          description: interestlist not found
+    delete:
+      description: delete an interestpointlist for user *username*
+      responses:
+        200:
+          description: interestlist succesfully deleted
+          schema:
+            $ref: '#/definitions/interestlist'
+        404:
+          description: interestlist not found
+  
+  /user/{username}/reservation/:
+    parameters:
+      - name: username
+        in: path
+        required: true
+        type: string
+    
+    get:
+      description: get all reservations for user *username*
+      responses:
+        200:
+          description: reservation succesfully retrieved
+          schema:
+            $ref: '#/definitions/reservation'
+        404:
+          description: reservation not found
+    post:
+      description: create a reservation for user *username*
+      responses:
+        200:
+          description: reservation succesfully created
+          schema:
+            $ref: '#/definitions/reservation'
+        404:
+          description: reservation not found
+    put:
+      description: edit a reservation for user *username*
+      responses:
+        200:
+          description: reservation succesfully edited
+          schema:
+            $ref: '#/definitions/reservation'
+        404:
+          description: reservation not found
+    delete:
+      description: delete a reservation for user *username*
+      responses:
+        200:
+          description: reservation succesfully deleted
+          schema:
+            $ref: '#/definitions/reservation'
+        404:
+          description: reservation not found
+          
+  /interestpoint/{companyname}/reservation/:
+    parameters:
+      - name: companyname
+        in: path
+        required: true
+        type: string
+    
+    get:
+      description: get all reservations for company *companyname*
+      responses:
+        200:
+          description: reservation succesfully retrieved
+          schema:
+            $ref: '#/definitions/reservation'
+        404:
+          description: reservation not found
+    post:
+      description: create a reservation for company *companyname*
+      responses:
+        200:
+          description: reservation succesfully created
+          schema:
+            $ref: '#/definitions/reservation'
+        404:
+          description: reservation not found
+    put:
+      description: edit a reservation for company *companyname*
+      responses:
+        200:
+          description: reservation succesfully edited
+          schema:
+            $ref: '#/definitions/reservation'
+        404:
+          description: reservation not found
+    delete:
+      description: delete a reservation for company *companyname*
+      responses:
+        200:
+          description: reservation succesfully deleted
+          schema:
+            $ref: '#/definitions/reservation'
+        404:
+          description: reservation not found
